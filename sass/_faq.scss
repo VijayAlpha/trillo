@@ -1,0 +1,40 @@
+summary {
+  font-size: 2rem;
+  color: var(--color-black);
+  padding: 2rem;
+  margin-bottom: 1rem;
+  outline: none;
+  border-radius: 1rem;
+  text-align: left;
+  cursor: pointer;
+  position: relative;
+  background: rgb(255,255,255);
+background: linear-gradient(122deg, rgba(255,255,255,1) 0%, rgba(218,218,255,1) 35%, rgba(209,247,255,1) 100%);
+}
+details > summary::after {
+  position: absolute;
+  content: "+";
+  right: 20px;
+}
+details[open] > summary::after {
+  position: absolute;
+  content: "-";
+  right: 20px;
+}
+details > summary::-webkit-details-marker {
+  display: none;
+}
+
+details[open] summary ~ * {
+  animation: sweep 0.5s ease-in-out;
+}
+@keyframes sweep {
+  0% {
+    opacity: 0;
+    margin-top: -10px;
+  }
+  100% {
+    opacity: 1;
+    margin-top: 0px;
+  }
+}
