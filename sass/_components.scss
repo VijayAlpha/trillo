@@ -151,5 +151,35 @@
     &__img{
         margin: 1rem;
         width: 25rem;
+        height: 10rem;
+
+        @include respond(tab-port) {
+            width: 20rem;
+            height: 8rem;
+        }
+    }
+}
+
+// TEAM
+
+.team{
+    &__img-box{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    &__card{
+        margin: 2rem;
+    }
+    &__img{
+        width: 15rem;
+        border-radius: 100%;
+        margin-bottom: 2rem;
+    }
+
+    &__position{
+        font-family: "openpass-light", sans-serif !important;
     }
 }
