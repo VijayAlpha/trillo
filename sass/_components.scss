@@ -125,7 +125,7 @@
 .service-container{
     display: flex;
     justify-content: space-between;
-
+    align-items: center;
     @include respond(tab-port) {
         flex-direction: column;
     }
@@ -143,5 +143,13 @@
         width: 100%;
         height: 30rem;
         border-radius: 10px;
+    }
+}
+
+// Partners
+.partners{
+    &__img{
+        margin: 1rem;
+        width: 25rem;
     }
 }
