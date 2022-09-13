@@ -11,6 +11,9 @@
     align-items: center;
     border-bottom: 1px solid rgba($color: #999, $alpha: 0.3);
     
+    position: fixed;
+    background-color: #fff;
+
     &__img{
         width: 10rem;
     }
@@ -80,6 +83,13 @@
 
     &__sub-text{
         width: 60%;
+        @include respond(tab-port) {
+            width: 70%;
+        }
+    }
+
+    @include respond(tab-port) {
+        width: 100%;
     }
 }
 
