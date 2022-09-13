@@ -89,6 +89,15 @@ body {
   min-height: 100vh;
 }
 
+// Section
+.section{
+  padding: 6rem 10rem;
+  text-align: center;
+  @include respond(tab-port) {
+      padding: 2rem;   
+  }
+}
+
 .conatiner {
   width: 100%;
 }

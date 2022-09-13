@@ -1,3 +1,7 @@
+
+
+// Naviagtion
+
 .nav{
     font-size: 1.8rem;
     padding: 0 4rem;
@@ -63,6 +67,8 @@
     background-color: gold;
 }
 
+//  HERO SECTION
+
 .hero{
     display: flex;
     flex-direction: column;
@@ -77,12 +83,13 @@
     }
 }
 
+// ABOUT SECTION
+
 .about{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10rem;
-
+    text-align: left;
     @include respond(tab-port) {
         flex-direction: column;
         padding: 2rem;   
@@ -108,6 +115,33 @@
     &__img{
         width: 45%;
         margin: 1rem;
+        border-radius: 10px;
+    }
+}
+
+// HOW IT WORKS SECTION
+
+//  SERVICE
+.service-container{
+    display: flex;
+    justify-content: space-between;
+
+    @include respond(tab-port) {
+        flex-direction: column;
+    }
+}
+.service{
+    width: 40rem;
+    margin: 2rem;
+    text-align: center;
+
+    & > *{
+        margin: 2rem 0;
+    }
+
+    &__img{
+        width: 100%;
+        height: 30rem;
         border-radius: 10px;
     }
 }
