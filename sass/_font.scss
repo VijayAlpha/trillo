@@ -2,7 +2,15 @@
 
 @font-face {
   font-family: "openpass";
-  src:url("./font/overpasssemibold.otf") format('opentype');
+  src:url("../font/overpasssemibold.otf") format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: "openpass-bold";
+  src:url("../font/overpassextrabold.otf") format('opentype');
   font-weight: normal;
   font-style: normal;
 }
