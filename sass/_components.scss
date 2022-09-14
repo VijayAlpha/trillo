@@ -191,6 +191,8 @@
   }
 }
 
+// CONTACT
+
 .contact {
   padding: 4rem;
   background-color: var(--color-grey-light-3);
@@ -207,6 +209,10 @@
     display: flex;
     justify-content: center;
   }
+
+  &__img{
+    width: 8rem;
+  }
 }
 
 // FAQ
@@ -220,6 +226,10 @@
   &__box {
     width: 70%;
     text-align: left;
+
+    @include respond(tab-port) {
+      width: 90%
+    }
   }
 
   &__ans {
@@ -230,10 +240,40 @@
 // FOOTER
 .footer {
   background: rgb(0, 0, 0);
-  background: linear-gradient(
-    122deg,
-    rgba(0, 0, 0, 1) 0%,
-    rgba(10, 28, 9, 1) 43%,
-    rgba(23, 24, 5, 1) 100%
-  );
+  
+  &__container{
+    margin-top: 6rem;
+    display: flex;
+    justify-content: space-between;
+
+    & > * {
+      border-top: 1px #666 solid;
+      padding-top: 3rem;
+      width: 50%;
+    }
+  }
+
+  &__list{
+    display: flex;
+  }
+
+  &__item{
+    list-style: none;
+    font-size: 1.8rem;
+    margin-right: 1.5rem;
+    cursor: pointer;
+  }
+
+  &__right{
+    display: flex;
+    align-items: center;
+
+    & > * {
+      margin-right: 1.5rem;
+    }
+  }
+
+  &__link{
+    color: var(--color-white)
+  }
 }
