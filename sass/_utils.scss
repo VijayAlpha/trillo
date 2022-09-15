@@ -7,6 +7,7 @@
 .h2{
     font-size: 6rem;
     font-family: "openpass-bold", sans-serif;
+    line-height: 1;
 }
 
 .h3{
@@ -29,6 +30,10 @@
     &--xl{
         margin-bottom: 4rem;
     }
+}
+
+.ml{
+    margin-left: 2rem;
 }
 
 .link{
