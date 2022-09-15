@@ -155,15 +155,15 @@
 .how-it-works{
   // transform: skewY(-7deg);
   
-  background-color: var(--color-grey-light-3);
+  // background-color: var(--color-grey-light-3);
 
-  background: rgb(237, 255, 150);
-  background: linear-gradient(
-    122deg,
-    rgba(237, 255, 150, 1) 0%,
-    rgba(251, 255, 218, 1) 35%,
-    rgba(251, 255, 209, 1) 100%
-  );
+  // background: rgb(237, 255, 150);
+  // background: linear-gradient(
+  //   122deg,
+  //   rgba(237, 255, 150, 1) 0%,
+  //   rgba(251, 255, 218, 1) 35%,
+  //   rgba(251, 255, 209, 1) 100%
+  // );
 
   &__container{
     // transform: skewY(7deg);
@@ -283,13 +283,8 @@
   padding: 4rem;
   background-color: var(--color-grey-light-3);
 
-  background: rgb(237, 255, 150);
-  background: linear-gradient(
-    122deg,
-    rgba(237, 255, 150, 1) 0%,
-    rgba(251, 255, 218, 1) 35%,
-    rgba(251, 255, 209, 1) 100%
-  );
+  // background: linear-gradient(#FFDD00, #FBB034);
+  background: gold;
 
   &__box{
     display: flex;

@@ -369,12 +369,6 @@ body {
   border-radius: 10px;
 }
 
-.how-it-works {
-  background-color: var(--color-grey-light-3);
-  background: #edff96;
-  background: linear-gradient(122deg, #edff96 0%, #fbffda 35%, #fbffd1 100%);
-}
-
 @media only screen and (max-width: 56.25em) {
   .how-it-works__container {
     padding: 6rem 2rem;
@@ -531,8 +525,7 @@ body {
 .contact {
   padding: 4rem;
   background-color: var(--color-grey-light-3);
-  background: #edff96;
-  background: linear-gradient(122deg, #edff96 0%, #fbffda 35%, #fbffd1 100%);
+  background: gold;
 }
 
 .contact__box {
