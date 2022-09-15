@@ -256,9 +256,12 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  /* Created with https://www.css-gradient.com */
+  background: url("../img/hero.png"), -webkit-gradient(linear, left top, left bottom, from(#FFDD00), to(#FBB034));
+  background: url("../img/hero.png"), linear-gradient(#FFDD00, #FBB034);
   background-position: center;
+  background-size: cover;
   background-repeat: no-repeat;
-  background-color: gold;
 }
 
 .hero {

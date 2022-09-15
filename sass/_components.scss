@@ -66,12 +66,11 @@ display: none;      }
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  // background: src('.././img/hero-background-image.png');
-  // background: url("../img/hero-background-image.png") , white;
+  /* Created with https://www.css-gradient.com */
+  background: url("../img/hero.png"),linear-gradient(#FFDD00, #FBB034);
   background-position: center;
-  // background-size: cover;
+  background-size: cover;
   background-repeat: no-repeat;
-  background-color: gold;
 }
 
 //  HERO SECTION
