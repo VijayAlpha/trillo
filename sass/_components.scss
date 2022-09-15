@@ -153,21 +153,7 @@
 
 // HOW IT WORKS SECTION
 .how-it-works{
-  // transform: skewY(-7deg);
-  
-  // background-color: var(--color-grey-light-3);
-
-  // background: rgb(237, 255, 150);
-  // background: linear-gradient(
-  //   122deg,
-  //   rgba(237, 255, 150, 1) 0%,
-  //   rgba(251, 255, 218, 1) 35%,
-  //   rgba(251, 255, 209, 1) 100%
-  // );
-
   &__container{
-    // transform: skewY(7deg);
-
     @include respond(tab-port) {
      padding: 6rem 2rem;
     }
@@ -283,8 +269,8 @@
   padding: 4rem;
   background-color: var(--color-grey-light-3);
 
-  // background: linear-gradient(#FFDD00, #FBB034);
   background: gold;
+  background: linear-gradient(#FFDD00, #FBB034);
 
   &__box{
     display: flex;
