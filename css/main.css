@@ -198,6 +198,12 @@ body {
 }
 
 @media only screen and (max-width: 56.25em) {
+  .nav {
+    padding: 2rem 4rem;
+  }
+}
+
+@media only screen and (max-width: 56.25em) {
   .nav__container--middle {
     display: none;
   }
@@ -666,6 +672,23 @@ body {
   color: var(--color-white);
 }
 
+.banner {
+  padding: 9rem;
+  background: -webkit-gradient(linear, left top, left bottom, from(#FFDD00), to(#FBB034));
+  background: linear-gradient(#FFDD00, #FBB034);
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.banner > * {
+  width: 70%;
+}
+
 .h1 {
   font-size: 8rem;
   font-family: "openpass-bold", sans-serif;
@@ -708,4 +731,8 @@ body {
   cursor: pointer;
   text-decoration: none;
   color: inherit;
+}
+
+.color-yellow {
+  color: var(--color-primary);
 }
